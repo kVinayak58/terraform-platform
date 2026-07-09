@@ -11,5 +11,5 @@ on:
       - main
 
 jobs:
-  validate:
+  checks:
     uses: kVinayak58/platform-config/.github/workflows/terraform-ci.yml@main
