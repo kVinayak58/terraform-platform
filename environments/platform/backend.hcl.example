@@ -1,0 +1,5 @@
+bucket         = "shopeasy-terraform-state-267423569109-us-east-1"
+key            = "platform/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "shopeasy-terraform-locks"
+encrypt        = true

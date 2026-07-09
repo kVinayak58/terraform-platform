@@ -1,0 +1,5 @@
+aws_region         = "us-east-1"
+state_bucket_name  = "shopeasy-terraform-state-267423569109-us-east-1"
+lock_table_name    = "shopeasy-terraform-locks"
+kms_key_alias      = "alias/shopeasy-terraform-state"
+state_retention_days = 90

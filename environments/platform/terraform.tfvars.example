@@ -1,0 +1,6 @@
+aws_region          = "us-east-1"
+project_name        = "shopeasy"
+cluster_name        = "shopeasy-eks"
+cluster_version     = "1.31"
+node_instance_types = ["t3.medium"]
+node_desired_size   = 2

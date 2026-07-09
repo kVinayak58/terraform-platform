@@ -1,0 +1,8 @@
+bucket         = "shopeasy-terraform-state-267423569109-us-east-1"
+key            = "shared/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "shopeasy-terraform-locks"
+encrypt        = true
+
+# After bootstrap apply, copy kms_key_id from bootstrap output:
+# kms_key_id     = "arn:aws:kms:us-east-1:ACCOUNT:key/..."
